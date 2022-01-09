@@ -1,0 +1,22 @@
+.fundo {
+  background-color: #0c1800;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.nome {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nome::before {
+  content: "";
+  width: 30px;
+  background-color: rgb(197, 194, 194);
+  height: 5px;
+  position: absolute;
+  bottom: 0px;
+}

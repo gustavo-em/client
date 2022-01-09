@@ -1,0 +1,10 @@
+.fundo {
+  background-color: #e4e9e0;
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+}
+
+.container {
+  padding: 20px;
+}
